@@ -1,0 +1,87 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    background-color: #8d3ee7;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: large;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  img {
+    float:inline-start;
+    padding-right: 0px;
+
+  }
+  footer {
+    background-color: #bb97e4;
+    text-align: center;
+    padding: 20px;
+    margin: 0%;
+
+  }
+  .imgperfil img{
+    margin-right: 10px;
+    border: solid rgb(208, 188, 228)2px;
+    padding: 5px;
+    border-radius: 15px;
+  }
+
+  .container{
+    width: 80%;
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-areas: 
+    "perfil"
+    "repositorio"
+    "conteudoextra"
+    "grupo";
+  }
+  .perfil {
+    grid-area: "perfil";
+  }
+  .repositorio {
+    grid-area: "repositorio";
+  }
+  .grupo{
+    grid-area: "grupo";
+  }
